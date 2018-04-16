@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hello">Hello:</string>
+    <string name="todo">TODO</string>
+    <string name="cerrar_sesion">Cerrar Sesion</string>
+    <string name="identificacion">Identificacion</string>
+    <string name="nombre">Nombre</string>
+    <string name="cancel_login">Cancelaste inicio de sesion</string>
+    <string name="error_login">Ocurrio un error en el inisio de sesion</string>
+    <string name="facebook_app_id">359461997889153</string>
+    <string name="fb_login_protocol_scheme">fb359461997889153</string>
+    <string name="correo">Correo</string>
+    <string name="todo_a">TODO</string>
+    <string name="inicia">Inicia</string>
+    <string name="firebase_error_login">Error al iniciar sesion en Firebase</string>
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/nameTextView"
+        android:layout_marginStart="28dp"
+        android:text="@string/hello"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="297dp"
+        android:layout_height="208dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/nanatzu" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="39dp"
+        android:layout_marginEnd="13dp"
+        android:onClick="logout"
+        android:text="@string/cerrar_sesion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/idTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_alignTop="@+id/emailTextView"
+        android:text="@string/identificacion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="200dp"
+        android:layout_height="19dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="31dp"
+        android:text="@string/nombre"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintStart_toEndOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/photoImageView"
+        android:layout_width="125dp"
+        android:layout_height="109dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_marginBottom="28dp"
+        android:contentDescription="@string/todo_a"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/imagen" />
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="122dp"
+        android:layout_height="19dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="191dp"
+        android:layout_marginEnd="59dp"
+        android:text="@string/correo"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/idTextView" />
+
+</RelativeLayout>
